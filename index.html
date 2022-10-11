@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <header>
+    <nav class="navPhone">
+      <img class="navPhone__logo" src="images/logo.svg" alt="logo">
+      <button class="navPhone__burguer">
+        <img class="navPhone__burguerImg" src="images/icon-hamburger.svg" alt="icon-hamburguer-menu">
+      </button>
+      <div class="navPhone__menu navPhone__menu--none">
+        <p class="navPhone__sections">Product</p>
+        <p class="navPhone__sections">Company</p>
+        <p class="navPhone__sections navPhone__sections--connect">Connect</p>
+        <div class="navPhone__submenu navPhone__submenu--none">
+          <a class="navPhone__links" href="#">Contact</a>
+          <a class="navPhone__links" href="#">Newsletter</a>
+          <a class="navPhone__links" href="#">LinkedIn</a>
+        </div>
+        <hr>
+        <a class="navPhone__log" href="#">Login</a>
+        <a class="navPhone__log navPhone__log--sign" href="#">Sign Up</a>
+      </div>
+    </nav>
+    <nav class="navDesktop">
+      <div class="navDesktop__container">
+        <img class="navDesktop__logo" src="images/logo.svg" alt="logo">
+        <p class="navDesktop__sections">Product</p>
+        <p class="navDesktop__sections">Company</p>
+        <p class="navDesktop__sections navDesktop__sections--connect">Connect</p>
+        <div class="navDesktop__subcont navDesktop__subcont--none">
+          <a class="navDesktop__links" href="#">Contact</a>
+          <a class="navDesktop__links" href="#">Newsletter</a>
+          <a class="navDesktop__links" href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div class="navDesktop__register">
+        <a class="navDesktop__log" href="#">Login</a>
+        <a class="navDesktop__log navDesktop__log--sign" href="#">Sign Up</a>
+      </div>
+    </nav>
+    <h1>A modern publishing platform</h1><br/>
+    <h2>Grow your audience and build your online brand</h2>
+    <div class="getStart">
+      <a class="getStart__links getStart__links--start" href="#">Start for Free</a>
+      <a class="getStart__links" href="#">Learn More</a>
+    </div>
+  </header>
+  <main>
+    <section class="designed">
+      <h2>Designed for the future</h2>
+      <div class="designed__content">
+        <img class="designed__image" src="images/illustration-editor-mobile.svg" alt="illustration-editor">
+        <div class="designed__text">
+          <h3>Introducing an extensible editor</h3><br/>
+          <p>Blogr features an exceedingly intuitive interface wich lets you focus on one thing: creating content.
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+            change the looks of a blog.
+          </p><br/><br/>
+          <h3>Robust content management</h3><br/>
+          <p>Flexible content management enables users to easily move through posts. Increase the usability of your 
+            blog by adding customized categories, sections, format, or flow. With this functionality, you're in full 
+            control.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="infrast">
+      <img class="infrast__image" src="images/illustration-phones.svg" alt="illustration-phones">
+      <div class="infrast__content">
+        <h2>State of the Art Infrastructure</h2><br/>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
+      </div>
+    </section>
+    <section class="tooling">
+      <img class="tooling__image" src="images/illustration-laptop-mobile.svg" alt="illustration-laptop">
+      <div class="tooling__content">
+        <h2>Free, open, simple</h2><br/>
+        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+        </p><br/><br/>
+        <h2>Powerful tooling</h2><br/>
+        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a 
+          breeze, but capable of producing even the most complicated sites.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img class="footerLogo" src="images/logo.svg" alt="logo">
+    <div class="footCont">
+      <h3>Product</h3><br/>
+      <a href="#">Overview</a>
+      <a href="#">Pricing</a>
+      <a href="#">Marketplace</a>
+      <a href="#">Features</a>
+      <a href="#">Integrations</a>
+    </div>
+    <div class="footCont">
+      <h3>Company</h3><br/>
+      <a href="#">About</a>
+      <a href="#">Team</a>
+      <a href="#">Blog</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footCont">
+      <h3>Connect</h3><br/>
+      <a href="#">Contact</a>
+      <a href="#">Newsletter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+<script src="src/main.js"></script>
+</body>
+</html>
